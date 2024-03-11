@@ -3,7 +3,7 @@
   "name": "zelda-api",
   "title": "Zelda API",
   "description": "Get information from the Zelda Fan API",
-  "icon": "command-icon.png",
+  "icon": "triforce-icon.png",
   "author": "JoepSnijders",
   "categories": [
     "Fun"
