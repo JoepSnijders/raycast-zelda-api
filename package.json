@@ -1,0 +1,68 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "zelda-api",
+  "title": "Zelda API",
+  "description": "Get information from the Zelda Fan API",
+  "icon": "command-icon.png",
+  "author": "JoepSnijders",
+  "categories": [
+    "Fun"
+  ],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "find-zelda",
+      "title": "Find Zelda",
+      "subtitle": "Get information from the Zelda API",
+      "description": "This command is a Raycast interface for the Zelda API",
+      "mode": "view"
+    },
+    {
+      "name": "find-dungeon",
+      "title": "Find A Zelda Dungeon",
+      "subtitle": "Get dungeon information from the Zelda API",
+      "description": "This dungeon command is a Raycast interface for the Zelda API",
+      "mode": "view"
+    },
+    {
+      "name": "find-monster",
+      "title": "Find A Zelda Monster",
+      "subtitle": "Get monster information from the Zelda API",
+      "description": "This monster command is a Raycast interface for the Zelda API",
+      "mode": "view"
+    },
+    {
+      "name": "find-boss",
+      "title": "Find A Zelda Boss",
+      "subtitle": "Get boss information from the Zelda API",
+      "description": "This boss command is a Raycast interface for the Zelda API",
+      "mode": "view"
+    },
+    {
+      "name": "find-character",
+      "title": "Find A Zelda Character",
+      "subtitle": "Get character information from the Zelda API",
+      "description": "This character command is a Raycast interface for the Zelda API",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.68.1",
+    "@raycast/utils": "^1.12.5"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^1.0.6",
+    "@types/node": "20.8.10",
+    "@types/react": "18.2.27",
+    "eslint": "^8.51.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "publish": "npx @raycast/api@latest publish"
+  }
+}
